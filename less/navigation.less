@@ -9,6 +9,15 @@ nav {
     padding-top: 20px;
     border-bottom: 2px dashed @navigation-border;
 
+    @media @mobile {
+        flex-direction: column;
+    }
+
+    h1 {
+        @media @mobile {
+            margin-bottom: 15px;
+        }
+    }
     .anchors {
         width: 400px;
         display: flex;
@@ -22,7 +31,4 @@ nav {
     }
     
 }
-
-
-
 
