@@ -168,6 +168,23 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: #C0C0C0;
+  margin: 20px auto;
+}
+.anchors {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
