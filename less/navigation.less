@@ -1,5 +1,6 @@
 // Navigation Styles here
 
+
 nav {
     display: flex;
     align-items: center;
@@ -7,17 +8,18 @@ nav {
     border: @navigation-border;
     padding-bottom: 20px;
     padding-top: 20px;
-    border-bottom: 2px dashed @navigation-border;
+    border-bottom: 2px dashed @navigation-border
 
     @media @mobile {
         flex-direction: column;
-    }
+    } 
 
     h1 {
         @media @mobile {
             margin-bottom: 15px;
         }
     }
+
     .anchors {
         width: 400px;
         display: flex;
@@ -29,6 +31,12 @@ nav {
             color: black;
         }
     }
-    
 }
 
+.border-only {
+    border: 2px dashed @navigation-border;
+    height: 10px;
+    background-color: black;
+    width: 100%;
+    color: white;
+}

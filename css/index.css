@@ -324,6 +324,7 @@ nav .anchors a {
   text-align: center;
   font-size: 2rem;
   color: white;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
@@ -335,5 +336,6 @@ nav .anchors a {
     text-align: center;
     font-size: 2rem;
     color: white;
+    cursor: pointer;
   }
 }
