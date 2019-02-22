@@ -180,7 +180,6 @@ nav {
   border: #C0C0C0;
   padding-bottom: 20px;
   padding-top: 20px;
-  border-bottom: 2px dashed #C0C0C0;
 }
 @media (max-width: 500px) {
   nav {
@@ -201,6 +200,18 @@ nav .anchors a {
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
+}
+.border-only {
+  border: 2px dashed #C0C0C0;
+  height: 10px;
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+hr {
+  margin: 0;
+  border: 0;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .footer {
   width: 100%;
